@@ -17,8 +17,8 @@ let computerScore = 0;
 function playGame() {
 
     for (let i = 0; i < 5; i++) {
-        
-       console.log(playRound());
+
+        console.log(playRound());
     }
 
     function playRound(humanChoice, computerChoice) {
@@ -50,4 +50,4 @@ console.log(playGame());
 
 if (humanScore > computerScore) { console.log('You won the match!') }
 else if (humanScore < computerScore) { console.log('You lost the match.') }
-else if (humanScore=computerScore){ console.log('Match Draw!') };
+else if (humanScore = computerScore) { console.log('Match Draw!') };
